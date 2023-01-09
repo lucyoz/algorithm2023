@@ -33,7 +33,20 @@ public class FoodFight {
         int[] food1 = {1, 3, 4, 6};
         int[] food2 = {1, 7, 1, 2};
 
-        System.out.println(solution(food1));
-        System.out.println(solution(food2));
+        System.out.println(solution2(food1));
+        System.out.println(solution2(food2));
+    }
+
+
+    //간단한 방법 - 뒤집는 걸 따로 생각할 필요 없음.
+    public static String solution2(int[] food){
+        String answer = "0";
+
+        for (int i = food.length-1; i >0 ; i--) {
+            for (int j = 0; j < food[i]/2; j++) {
+                answer = i + answer + i;
+            }
+        }
+        return answer;
     }
 }
