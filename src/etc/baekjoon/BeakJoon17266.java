@@ -2,7 +2,7 @@
 //가로등 높이가 될 수 있는 범위 내에서 이분탐색의 아이디어로 특정 높이를 정하고 mid = (left+right)/2 돌다리 전부 건널 수 있는지 판별
 //된다면 최소인가? -> right = mid - 1 시도. 안되면, mid보다 높은 값 left = mid + 1 시도
 //반복할 수 없는 상황까지 left > right
-package etc;
+package etc.baekjoon;
 
 import java.util.Scanner;
 
