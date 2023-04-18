@@ -8,6 +8,8 @@
 - [음료수 얼려먹기](https://github.com/lucyoz/algorithm2023/blob/master/src/etc/Icecream.java): DFS 재귀이용
 - [미로 탈출](https://github.com/lucyoz/algorithm2023/blob/master/src/etc/EscapeMaze.java): BFS로 간선의 비용이 같을 때 최단거리 구하기
 - [게임 맵 최단거리](https://github.com/lucyoz/algorithm2023/blob/master/src/dfsNbfs/shortestDistance.java): BFS로 최단거리
+- [타겟 넘버 using BFS](https://github.com/lucyoz/algorithm2023/blob/master/src/dfsNbfs/TargetNumberUsingBFS.java0): BFS
+- [타겟 넘버 using BFS](https://github.com/lucyoz/algorithm2023/blob/master/src/dfsNbfs/TargetNumberUsingDFS.java0): DFS
 
 ### **백준**
 - [어두운 굴다리](https://github.com/lucyoz/algorithm2023/blob/master/src/etc/baekjoon/BeakJoon17266.java): Parametric Search
