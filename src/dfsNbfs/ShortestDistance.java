@@ -4,7 +4,7 @@ import java.util.ArrayDeque;
 import java.util.LinkedList;
 import java.util.Queue;
 
-public class shortestDistance {
+public class ShortestDistance {
   static int[] dx = {1, 0, -1, 0};
   static int[] dy = {0, 1, 0, -1};
 
