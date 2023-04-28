@@ -22,6 +22,11 @@ a.compareTo(b)
 //오름차순은 (o1+o2).compareTo(o1+o2);
 ```
 
+### **스택&큐**
+- [프로세스](https://github.com/lucyoz/algorithm2023/blob/master/src/stackNqueue/Process.java): 큐와 우선순위 큐 이용
+
+### **브루트포스**
+-[모음사전](https://github.com/lucyoz/algorithm2023/blob/master/src/bruteForce/vowels.java): 규칙 찾아 적용
 
 ### **백준**
 - [어두운 굴다리](https://github.com/lucyoz/algorithm2023/blob/master/src/etc/baekjoon/BeakJoon17266.java): Parametric Search
