@@ -24,9 +24,14 @@ a.compareTo(b)
 
 ### **스택&큐**
 - [프로세스](https://github.com/lucyoz/algorithm2023/blob/master/src/stackNqueue/Process.java): 큐와 우선순위 큐 이용
+- [두 큐 합 같게 만들기](https://github.com/lucyoz/algorithm2023/blob/master/src/stackNqueue/SumQueue.java): 큐
 
 ### **브루트포스**
--[모음사전](https://github.com/lucyoz/algorithm2023/blob/master/src/bruteForce/vowels.java): 규칙 찾아 적용
+- [모음사전](https://github.com/lucyoz/algorithm2023/blob/master/src/bruteForce/vowels.java): 규칙 찾아 적용
+
+### **기타**
+**1. KAKAO**
+- [k진수에서 소수 개수 구하기](https://github.com/lucyoz/algorithm2023/blob/master/src/etc/kakao/FindPrimeInK.java): 2022 KAKAO BLIND RECRUITMENT
 
 ### **백준**
 - [어두운 굴다리](https://github.com/lucyoz/algorithm2023/blob/master/src/etc/baekjoon/BeakJoon17266.java): Parametric Search
