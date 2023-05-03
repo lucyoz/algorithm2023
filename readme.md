@@ -33,6 +33,11 @@ a.compareTo(b)
 **1. KAKAO**
 - [k진수에서 소수 개수 구하기](https://github.com/lucyoz/algorithm2023/blob/master/src/etc/kakao/FindPrimeInK.java): 2022 KAKAO BLIND RECRUITMENT
 
+**2. 기타**
+- [행렬 테두리 회전하기](https://github.com/lucyoz/algorithm2023/blob/master/src/etc/RotateBorder.java): 2021 Dev-Matching: 웹 백엔드 개발자 
+
+**3. 연습문제**
+- [할인행사](https://github.com/lucyoz/algorithm2023/blob/master/src/etc/discountEvent.java)
 ### **백준**
 - [어두운 굴다리](https://github.com/lucyoz/algorithm2023/blob/master/src/etc/baekjoon/BeakJoon17266.java): Parametric Search
 - [구간 합 구하기 4](https://github.com/lucyoz/algorithm2023/blob/master/src/etc/baekjoon/BaekJoon11659.java): 기본 구현
