@@ -29,6 +29,9 @@ a.compareTo(b)
 ### **브루트포스**
 - [모음사전](https://github.com/lucyoz/algorithm2023/blob/master/src/bruteForce/vowels.java): 규칙 찾아 적용
 
+### **해시**
+- [의상](https://github.com/lucyoz/algorithm2023/blob/master/src/hash/Clothes.java): Map이용
+
 ### **기타**
 **1. KAKAO**
 - [k진수에서 소수 개수 구하기](https://github.com/lucyoz/algorithm2023/blob/master/src/etc/kakao/FindPrimeInK.java): 2022 KAKAO BLIND RECRUITMENT
