@@ -35,6 +35,7 @@ a.compareTo(b)
 ### **기타**
 **1. KAKAO**
 - [k진수에서 소수 개수 구하기](https://github.com/lucyoz/algorithm2023/blob/master/src/etc/kakao/FindPrimeInK.java): 2022 KAKAO BLIND RECRUITMENT
+- [주차 요금 계산](https://github.com/lucyoz/algorithm2023/blob/master/src/etc/kakao/ParkingFee4.java): Map, Set 이용
 
 **2. 기타**
 - [행렬 테두리 회전하기](https://github.com/lucyoz/algorithm2023/blob/master/src/etc/RotateBorder.java): 2021 Dev-Matching: 웹 백엔드 개발자 
