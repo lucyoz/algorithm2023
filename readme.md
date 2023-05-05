@@ -11,6 +11,7 @@
 - [타겟 넘버 using BFS](https://github.com/lucyoz/algorithm2023/blob/master/src/dfsNbfs/TargetNumberUsingBFS.java0): BFS
 - [타겟 넘버 using BFS](https://github.com/lucyoz/algorithm2023/blob/master/src/dfsNbfs/TargetNumberUsingDFS.java0): DFS
 - [DFS와 BFS (백준)](https://github.com/lucyoz/algorithm2023/blob/master/src/dfsNbfs/BaekJoon1260.java): DFS(재귀), BFS(큐)
+- [무인도 여행](https://github.com/lucyoz/algorithm2023/blob/master/src/etc/Travelisland2.java): bfs 이용
 
 ### **정렬**
 - [가장 큰 수](https://github.com/lucyoz/algorithm2023/blob/master/src/sort/LargestNumber.java): Comparator 오버라이드(내림차순)
