@@ -42,6 +42,7 @@ a.compareTo(b)
 - [행렬 테두리 회전하기](https://github.com/lucyoz/algorithm2023/blob/master/src/etc/RotateBorder.java): 2021 Dev-Matching: 웹 백엔드 개발자 
 - [숫자 변환하기](https://github.com/lucyoz/algorithm2023/blob/master/src/etc/AlterXtoY.java): DP 이용
 - [연속 부분 수열 합의 개수](https://github.com/lucyoz/algorithm2023/blob/master/src/etc/ConsecutiveNumberSubSequence.java): Set 이용
+- [연속된 부분 수열의 합](https://github.com/lucyoz/algorithm2023/blob/master/src/etc/SumOfConsecutiveNumberSubSequence.java): 투포인터 이용
 
 **3. 연습문제**
 - [할인행사](https://github.com/lucyoz/algorithm2023/blob/master/src/etc/discountEvent.java)
