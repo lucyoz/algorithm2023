@@ -32,6 +32,8 @@ a.compareTo(b)
 
 ### **해시**
 - [의상](https://github.com/lucyoz/algorithm2023/blob/master/src/hash/Clothes.java): Map이용
+- [롤케이크 자르기](https://github.com/lucyoz/algorithm2023/blob/master/src/hash/CuttingRollCake.java): Set 이용 -> for문 돌 때마다 초기화했더니 -> 시간 초과
+- [롤케이크 자르기2](https://github.com/lucyoz/algorithm2023/blob/master/src/hash/CuttingRollCake2.java): Map과 Set 이용 -> 통과
 
 ### **기타**
 **1. KAKAO**
@@ -43,6 +45,7 @@ a.compareTo(b)
 - [숫자 변환하기](https://github.com/lucyoz/algorithm2023/blob/master/src/etc/AlterXtoY.java): DP 이용
 - [연속 부분 수열 합의 개수](https://github.com/lucyoz/algorithm2023/blob/master/src/etc/ConsecutiveNumberSubSequence.java): Set 이용
 - [연속된 부분 수열의 합](https://github.com/lucyoz/algorithm2023/blob/master/src/etc/SumOfConsecutiveNumberSubSequence.java): 투포인터 이용
+- [뒤에 있는 큰 수 찾기](https://github.com/lucyoz/algorithm2023/blob/master/src/etc/FindMaxBehindNum.java): stack 이용
 
 **3. 연습문제**
 - [할인행사](https://github.com/lucyoz/algorithm2023/blob/master/src/etc/discountEvent.java)
