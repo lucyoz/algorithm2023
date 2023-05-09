@@ -46,6 +46,8 @@ a.compareTo(b)
 - [연속 부분 수열 합의 개수](https://github.com/lucyoz/algorithm2023/blob/master/src/etc/ConsecutiveNumberSubSequence.java): Set 이용
 - [연속된 부분 수열의 합](https://github.com/lucyoz/algorithm2023/blob/master/src/etc/SumOfConsecutiveNumberSubSequence.java): 투포인터 이용
 - [뒤에 있는 큰 수 찾기](https://github.com/lucyoz/algorithm2023/blob/master/src/etc/FindMaxBehindNum.java): stack 이용
+- [피로도](https://github.com/lucyoz/algorithm2023/blob/master/src/etc/Fatigue.java): DFS(재귀) 이용 -> boolean[] visited 
+- [피로도2](https://github.com/lucyoz/algorithm2023/blob/master/src/etc/Fatigue2.java): DFS(재귀) -> visited배열 없이
 
 **3. 연습문제**
 - [할인행사](https://github.com/lucyoz/algorithm2023/blob/master/src/etc/discountEvent.java)
