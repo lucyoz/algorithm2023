@@ -48,6 +48,8 @@ a.compareTo(b)
 - [뒤에 있는 큰 수 찾기](https://github.com/lucyoz/algorithm2023/blob/master/src/etc/FindMaxBehindNum.java): stack 이용
 - [피로도](https://github.com/lucyoz/algorithm2023/blob/master/src/etc/Fatigue.java): DFS(재귀) 이용 -> boolean[] visited 
 - [피로도2](https://github.com/lucyoz/algorithm2023/blob/master/src/etc/Fatigue2.java): DFS(재귀) -> visited배열 없이
+- [튜플](https://github.com/lucyoz/algorithm2023/blob/master/src/etc/Tuple.java): String split, Set 이용
+- [방문 길이](https://github.com/lucyoz/algorithm2023/blob/master/src/etc/LengthOfOnesVisit.java): 3차원 배열, dir
 
 **3. 연습문제**
 - [할인행사](https://github.com/lucyoz/algorithm2023/blob/master/src/etc/discountEvent.java)
