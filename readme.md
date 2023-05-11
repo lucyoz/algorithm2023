@@ -35,6 +35,9 @@ a.compareTo(b)
 - [롤케이크 자르기](https://github.com/lucyoz/algorithm2023/blob/master/src/hash/CuttingRollCake.java): Set 이용 -> for문 돌 때마다 초기화했더니 -> 시간 초과
 - [롤케이크 자르기2](https://github.com/lucyoz/algorithm2023/blob/master/src/hash/CuttingRollCake2.java): Map과 Set 이용 -> 통과
 
+### **탐욕법 Greedy**
+- [구명보트](https://github.com/lucyoz/algorithm2023/blob/master/src/greedy/LifeBoat.java): ArrayDeque 이용
+
 ### **기타**
 **1. KAKAO**
 - [k진수에서 소수 개수 구하기](https://github.com/lucyoz/algorithm2023/blob/master/src/etc/kakao/FindPrimeInK.java): 2022 KAKAO BLIND RECRUITMENT
