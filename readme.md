@@ -55,6 +55,7 @@ a.compareTo(b)
 - [방문 길이](https://github.com/lucyoz/algorithm2023/blob/master/src/etc/LengthOfOnesVisit.java): 3차원 배열, dir
 - [n^2배열 자르기](https://github.com/lucyoz/algorithm2023/blob/master/src/etc/CuttingArray.java): (이중 for문으로 메모리 초과)
 - [n^2배열 자르기2](https://github.com/lucyoz/algorithm2023/blob/master/src/etc/CuttingArray2.java)
+- [JadenCase 문자열 만들기](https://github.com/lucyoz/algorithm2023/blob/master/src/etc/JadenCase.java): StringTokenizer
 
 **3. 연습문제**
 - [할인행사](https://github.com/lucyoz/algorithm2023/blob/master/src/etc/discountEvent.java)
