@@ -56,6 +56,7 @@ a.compareTo(b)
 - [n^2배열 자르기](https://github.com/lucyoz/algorithm2023/blob/master/src/etc/CuttingArray.java): (이중 for문으로 메모리 초과)
 - [n^2배열 자르기2](https://github.com/lucyoz/algorithm2023/blob/master/src/etc/CuttingArray2.java)
 - [JadenCase 문자열 만들기](https://github.com/lucyoz/algorithm2023/blob/master/src/etc/JadenCase.java): StringTokenizer
+- [스킬트리](https://github.com/lucyoz/algorithm2023/blob/master/src/etc/SkillTree.java)
 
 **3. 연습문제**
 - [할인행사](https://github.com/lucyoz/algorithm2023/blob/master/src/etc/discountEvent.java)
