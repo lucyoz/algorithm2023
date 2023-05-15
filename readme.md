@@ -57,6 +57,8 @@ a.compareTo(b)
 - [n^2배열 자르기2](https://github.com/lucyoz/algorithm2023/blob/master/src/etc/CuttingArray2.java)
 - [JadenCase 문자열 만들기](https://github.com/lucyoz/algorithm2023/blob/master/src/etc/JadenCase.java): StringTokenizer
 - [스킬트리](https://github.com/lucyoz/algorithm2023/blob/master/src/etc/SkillTree.java)
+- [숫자 카드 나누기](https://github.com/lucyoz/algorithm2023/blob/master/src/etc/DistributeCard.java)
+- [마법의 엘리베이터](https://github.com/lucyoz/algorithm2023/blob/master/src/etc/MagicalElevator.java)
 
 **3. 연습문제**
 - [할인행사](https://github.com/lucyoz/algorithm2023/blob/master/src/etc/discountEvent.java)
