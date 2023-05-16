@@ -1,6 +1,6 @@
 package bruteForce;
 
-public class vowels {
+public class Vowels {
 
   //마지막 자리 수는 바뀌려면 1씩 증가
   //4번째 자리 수는 1*5+1=6씩 증가
