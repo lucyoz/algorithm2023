@@ -16,10 +16,8 @@ public class LeastRectangle {
     int answer = 0;
     int firstMax=0, secondMax=0;
 
+    firstMax = find(sizes);
     for (int i = 0; i < sizes.length; i++) {
-      for (int j = 0; j < sizes[0].length; j++) {
-        firstMax = Math.max(firstMax, sizes[i][j]);
-      }
       if(sizes[i][0]>sizes[i][1]){
         sizes[i][0] = 0;
       } else {
