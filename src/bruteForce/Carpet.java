@@ -1,4 +1,4 @@
-package etc;
+package bruteForce;
 
 import java.util.Arrays;
 
