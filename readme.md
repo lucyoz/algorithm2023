@@ -29,6 +29,8 @@ a.compareTo(b)
 
 ### **브루트포스**
 - [모음사전](https://github.com/lucyoz/algorithm2023/blob/master/src/bruteForce/vowels.java): 규칙 찾아 적용
+- [카펫](https://github.com/lucyoz/algorithm2023/blob/master/src/bruteForce/Carpet.java)
+- [소수 찾기](https://github.com/lucyoz/algorithm2023/blob/master/src/bruteForce/FindPrimeNumber.java)
 
 ### **해시**
 - [의상](https://github.com/lucyoz/algorithm2023/blob/master/src/hash/Clothes.java): Map이용
