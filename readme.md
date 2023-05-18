@@ -26,6 +26,9 @@ a.compareTo(b)
 ### **스택&큐**
 - [프로세스](https://github.com/lucyoz/algorithm2023/blob/master/src/stackNqueue/Process.java): 큐와 우선순위 큐 이용
 - [두 큐 합 같게 만들기](https://github.com/lucyoz/algorithm2023/blob/master/src/stackNqueue/SumQueue.java): 큐
+- [기능개발](https://github.com/lucyoz/algorithm2023/blob/master/src/stackNqueue/DevelopmentFunction.java)
+- [기능개발2](https://github.com/lucyoz/algorithm2023/blob/master/src/stackNqueue/DevelopmentFunction2.java)
+- [기능개발(큐이용)](https://github.com/lucyoz/algorithm2023/blob/master/src/stackNqueue/DevelopmentFunctionUsingQueue.java)
 
 ### **브루트포스**
 - [모음사전](https://github.com/lucyoz/algorithm2023/blob/master/src/bruteForce/vowels.java): 규칙 찾아 적용
@@ -62,6 +65,7 @@ a.compareTo(b)
 - [스킬트리](https://github.com/lucyoz/algorithm2023/blob/master/src/etc/SkillTree.java)
 - [숫자 카드 나누기](https://github.com/lucyoz/algorithm2023/blob/master/src/etc/DistributeCard.java)
 - [마법의 엘리베이터](https://github.com/lucyoz/algorithm2023/blob/master/src/etc/MagicalElevator.java)
+- [요격 시스템](https://github.com/lucyoz/algorithm2023/blob/master/src/etc/InterceptSystem.java)
 
 **3. 연습문제**
 - [할인행사](https://github.com/lucyoz/algorithm2023/blob/master/src/etc/discountEvent.java)
