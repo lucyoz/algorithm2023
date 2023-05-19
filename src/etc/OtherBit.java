@@ -3,49 +3,24 @@ package etc;
 import java.util.Arrays;
 
 public class OtherBit {
-  public long compare(String original, String num){
-    long answer = 0;
-
-    String original2 = "";
-    if(original.charAt(0)=='1'){
-        original2 = "0"+original;
-    }
-    original = original2;
-
-    for (int i = 0; i < num.length(); i++) {
-      if(original.charAt(i)!=num.charAt(i)){
-        answer++;
-      }
-    }
-
-    return answer;
-  }
-
-  public long f(long number){
-
-    long minus = 100;
-    long num = number;
-    String original2Str = Long.toString(number, 2);
-    System.out.println(original2Str);
-    while(minus >=3){
-      num += 1;
-
-      String num2Str = Long.toString(num, 2);
-      System.out.println(num+", "+num2Str);
-
-      minus = compare(original2Str, num2Str);
-
-    }
-
-    return num;
-
-  }
+// 규칙 참고: https://ilmiodiario.tistory.com/108
 
   public long[] solution(long[] numbers){
     long[] answer = new long[numbers.length];
 
     for (int i = 0; i < numbers.length; i++) {
-      answer[i] = f(numbers[i]);
+      if(numbers[i]%2==0){
+        answer[i] = numbers[i] + 1;
+      } else {
+        String s = Long.toString(numbers[i],2);
+        int zeroIdx = s.lastIndexOf("0");
+        if(zeroIdx != -1){
+          s = s.substring(0, zeroIdx) + "10" + s.substring(zeroIdx+2, s.length());
+        } else {
+          s = "10" + s.substring(1, s.length());
+        }
+        answer[i] = Long.parseLong(s,2);
+      }
     }
 
 
