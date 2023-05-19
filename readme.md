@@ -66,6 +66,8 @@ a.compareTo(b)
 - [숫자 카드 나누기](https://github.com/lucyoz/algorithm2023/blob/master/src/etc/DistributeCard.java)
 - [마법의 엘리베이터](https://github.com/lucyoz/algorithm2023/blob/master/src/etc/MagicalElevator.java)
 - [요격 시스템](https://github.com/lucyoz/algorithm2023/blob/master/src/etc/InterceptSystem.java)
+- [호텔 대실](https://github.com/lucyoz/algorithm2023/blob/master/src/etc/Hotel.java): 누적합 이용
+- [2개 이하로 다른 비트](https://github.com/lucyoz/algorithm2023/blob/master/src/etc/OtherBit.java): 비트 연산 or ! 짝홀수로 나누어 규칙 풀이 !
 
 **3. 연습문제**
 - [할인행사](https://github.com/lucyoz/algorithm2023/blob/master/src/etc/discountEvent.java)
