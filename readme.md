@@ -29,6 +29,7 @@ a.compareTo(b)
 - [기능개발](https://github.com/lucyoz/algorithm2023/blob/master/src/stackNqueue/DevelopmentFunction.java)
 - [기능개발2](https://github.com/lucyoz/algorithm2023/blob/master/src/stackNqueue/DevelopmentFunction2.java)
 - [기능개발(큐이용)](https://github.com/lucyoz/algorithm2023/blob/master/src/stackNqueue/DevelopmentFunctionUsingQueue.java)
+- [주식가격](https://github.com/lucyoz/algorithm2023/blob/master/src/stackNqueue/Stock.java): 스택 이용
 
 ### **브루트포스**
 - [모음사전](https://github.com/lucyoz/algorithm2023/blob/master/src/bruteForce/vowels.java): 규칙 찾아 적용
@@ -43,6 +44,7 @@ a.compareTo(b)
 
 ### **탐욕법 Greedy**
 - [구명보트](https://github.com/lucyoz/algorithm2023/blob/master/src/greedy/LifeBoat.java): ArrayDeque 이용
+- [큰 수 만들기](https://github.com/lucyoz/algorithm2023/blob/master/src/greedy/MakeBigNum.java)
 
 ### **기타**
 **1. KAKAO**
