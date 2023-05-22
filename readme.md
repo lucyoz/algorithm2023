@@ -70,6 +70,9 @@ a.compareTo(b)
 - [요격 시스템](https://github.com/lucyoz/algorithm2023/blob/master/src/etc/InterceptSystem.java)
 - [호텔 대실](https://github.com/lucyoz/algorithm2023/blob/master/src/etc/Hotel.java): 누적합 이용
 - [2개 이하로 다른 비트](https://github.com/lucyoz/algorithm2023/blob/master/src/etc/OtherBit.java): 비트 연산 or ! 짝홀수로 나누어 규칙 풀이 !
+- [영어 끝말잇기](https://github.com/lucyoz/algorithm2023/blob/master/src/etc/WordRelay.java)
+- [귤 고르기](https://github.com/lucyoz/algorithm2023/blob/master/src/etc/SelectTangerine.java)
+- [택배상자](https://github.com/lucyoz/algorithm2023/blob/master/src/etc/ParcelBox.java)
 
 **3. 연습문제**
 - [할인행사](https://github.com/lucyoz/algorithm2023/blob/master/src/etc/discountEvent.java)
