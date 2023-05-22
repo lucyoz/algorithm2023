@@ -20,7 +20,7 @@ public class ParcelBox {
         oIdx++;
         continue;
       }
-      if(!stack.isEmpty() && stack.peek()==order[oIdx]){
+      while(!stack.isEmpty() && stack.peek()==order[oIdx]){
         stack.pop();
         answer++;
         oIdx++;
