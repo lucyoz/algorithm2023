@@ -75,6 +75,8 @@ a.compareTo(b)
 - [귤 고르기](https://github.com/lucyoz/algorithm2023/blob/master/src/etc/SelectTangerine.java)
 - [택배상자](https://github.com/lucyoz/algorithm2023/blob/master/src/etc/ParcelBox.java)
 - [예상 대진표](https://github.com/lucyoz/algorithm2023/blob/master/src/etc/TournamentSchedule.java)
+- [124 나라의 숫자](https://github.com/lucyoz/algorithm2023/blob/master/src/etc/Country124.java): 3진법 변형, 나머지 처리 주의
+- [줄 서는 방법](https://github.com/lucyoz/algorithm2023/blob/master/src/etc/LineUp.java): Lv2, Lv3
 
 **3. 연습문제**
 - [할인행사](https://github.com/lucyoz/algorithm2023/blob/master/src/etc/discountEvent.java)
