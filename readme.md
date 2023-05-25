@@ -51,6 +51,7 @@ a.compareTo(b)
 - [k진수에서 소수 개수 구하기](https://github.com/lucyoz/algorithm2023/blob/master/src/etc/kakao/FindPrimeInK.java): 2022 KAKAO BLIND RECRUITMENT
 - [주차 요금 계산](https://github.com/lucyoz/algorithm2023/blob/master/src/etc/kakao/ParkingFee4.java): Map, Set 이용
 - [오픈채팅방](https://github.com/lucyoz/algorithm2023/blob/master/src/etc/kakao/OpenKakaoTalk.java): Hash Map
+- [뉴스 클러스터링](https://github.com/lucyoz/algorithm2023/blob/master/src/etc/kakao/NewsClustering.java): 다중집합의 교집합, 합집합 구하기
 
 **2. 기타**
 - [행렬 테두리 회전하기](https://github.com/lucyoz/algorithm2023/blob/master/src/etc/RotateBorder.java): 2021 Dev-Matching: 웹 백엔드 개발자 
@@ -77,6 +78,9 @@ a.compareTo(b)
 - [예상 대진표](https://github.com/lucyoz/algorithm2023/blob/master/src/etc/TournamentSchedule.java)
 - [124 나라의 숫자](https://github.com/lucyoz/algorithm2023/blob/master/src/etc/Country124.java): 3진법 변형, 나머지 처리 주의
 - [줄 서는 방법](https://github.com/lucyoz/algorithm2023/blob/master/src/etc/LineUp.java): Lv2, Lv3
+- [괄호 회전하기](https://github.com/lucyoz/algorithm2023/blob/master/src/etc/RotateBracket.java): Arrays copy, Stack 이용
+- [2 x n 타일링](https://github.com/lucyoz/algorithm2023/blob/master/src/etc/Tiling.java): 피보나치 변형
+- [멀리 뛰기](https://github.com/lucyoz/algorithm2023/blob/master/src/etc/StandingLongJump.java): 피보나치 변형
 
 **3. 연습문제**
 - [할인행사](https://github.com/lucyoz/algorithm2023/blob/master/src/etc/discountEvent.java)
