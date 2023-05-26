@@ -26,7 +26,9 @@ public class MapCache {
 
     for (int i = 0; i < cities.length; i++) {
       cities[i] = cities[i].toUpperCase();
-      if(cityInCache.size()<cacheSize){
+
+      //이전 커밋 반례: 5, {"leo","leo","leo"} -> 기댓값 7이 나와야함
+      if(cityInCache.size()<cacheSize && !cityInCache.containsKey(cities[i])){
         cityInCache.put(cities[i], i);
         answer += 5;
         continue;
@@ -43,9 +45,6 @@ public class MapCache {
         cityInCache.remove(minEntry.getKey());
         cityInCache.put(cities[i], i);
         answer += 5;
-      }
-      if(cityInCache.size()!=cacheSize){
-        return -1;
       }
 
     }
