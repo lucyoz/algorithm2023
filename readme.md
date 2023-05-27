@@ -53,6 +53,7 @@ a.compareTo(b)
 - [오픈채팅방](https://github.com/lucyoz/algorithm2023/blob/master/src/etc/kakao/OpenKakaoTalk.java): Hash Map
 - [뉴스 클러스터링](https://github.com/lucyoz/algorithm2023/blob/master/src/etc/kakao/NewsClustering.java): 다중집합의 교집합, 합집합 구하기
 - [캐시](https://github.com/lucyoz/algorithm2023/blob/master/src/etc/kakao/MapCache.java): 캐시, LRU 알고리즘
+- [압축](https://github.com/lucyoz/algorithm2023/blob/master/src/etc/kakao/LZWCompression.java)
 
 **2. 기타**
 - [행렬 테두리 회전하기](https://github.com/lucyoz/algorithm2023/blob/master/src/etc/RotateBorder.java): 2021 Dev-Matching: 웹 백엔드 개발자 
