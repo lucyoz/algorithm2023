@@ -30,6 +30,7 @@ a.compareTo(b)
 - [기능개발2](https://github.com/lucyoz/algorithm2023/blob/master/src/stackNqueue/DevelopmentFunction2.java)
 - [기능개발(큐이용)](https://github.com/lucyoz/algorithm2023/blob/master/src/stackNqueue/DevelopmentFunctionUsingQueue.java)
 - [주식가격](https://github.com/lucyoz/algorithm2023/blob/master/src/stackNqueue/Stock.java): 스택 이용
+- [다리를 지나는 트럭](https://github.com/lucyoz/algorithm2023/blob/master/src/stackNqueue/TruckOnBridge.java): LinkedList<int[]>
 
 ### **브루트포스**
 - [모음사전](https://github.com/lucyoz/algorithm2023/blob/master/src/bruteForce/Vowels.java): 규칙 찾아 적용
@@ -85,6 +86,7 @@ a.compareTo(b)
 - [2 x n 타일링](https://github.com/lucyoz/algorithm2023/blob/master/src/etc/Tiling.java): 피보나치 변형
 - [멀리 뛰기](https://github.com/lucyoz/algorithm2023/blob/master/src/etc/StandingLongJump.java): 피보나치 변형
 - [행렬의 곱셈](https://github.com/lucyoz/algorithm2023/blob/master/src/etc/MultiplicationOfMatrices.java): 삼중 for문
+- [점프와 순간이동](https://github.com/lucyoz/algorithm2023/blob/master/src/etc/JumpNTeleport.java): 2진법과 유사
 
 **3. 연습문제**
 - [할인행사](https://github.com/lucyoz/algorithm2023/blob/master/src/etc/discountEvent.java)
