@@ -87,6 +87,8 @@ a.compareTo(b)
 - [멀리 뛰기](https://github.com/lucyoz/algorithm2023/blob/master/src/etc/StandingLongJump.java): 피보나치 변형
 - [행렬의 곱셈](https://github.com/lucyoz/algorithm2023/blob/master/src/etc/MultiplicationOfMatrices.java): 삼중 for문
 - [점프와 순간이동](https://github.com/lucyoz/algorithm2023/blob/master/src/etc/JumpNTeleport.java): 2진법과 유사
+- [삼각 달팽이](https://github.com/lucyoz/algorithm2023/blob/master/src/etc/TriangleSnails.java)
+- [쿼드압축 후 개수 세기](https://github.com/lucyoz/algorithm2023/blob/master/src/etc/QuadCompression.java)
 
 **3. 연습문제**
 - [할인행사](https://github.com/lucyoz/algorithm2023/blob/master/src/etc/discountEvent.java)
