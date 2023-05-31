@@ -1,6 +1,7 @@
 package etc.kakao;
 
 import java.util.Arrays;
+import java.util.Locale;
 
 public class SortByFileName {
 
@@ -33,13 +34,36 @@ public class SortByFileName {
         }
       }
       filesHEAD[i] = files[i].substring(0,l-k);
-      filesNUMBER[i] = files[i].substring(l,j);
+      filesNUMBER[i] = files[i].substring(l-k,j);
       filesTAIL[i] = files[i].substring(j);
+      answer2[i][0] = files[i].substring(0,l-k);
+      answer2[i][1] = files[i].substring(l-k,j);
+      answer2[i][2] = files[i].substring(j);
     }
 
     System.out.println(Arrays.toString(filesHEAD));
     System.out.println(Arrays.toString(filesNUMBER));
     System.out.println(Arrays.toString(filesTAIL));
+
+    Arrays.sort(answer2, (o1, o2) ->{
+      if(o1[0].toLowerCase().compareTo(o2[0].toLowerCase(Locale.ROOT)) > 0){
+        return 1;
+      } else if (o1[0].toLowerCase().compareTo(o2[0].toLowerCase(Locale.ROOT)) < 0){
+        return -1;
+      } else {
+        if (Integer.parseInt(o1[1]) > Integer.parseInt(o2[1])){
+          return 1;
+        } else if (Integer.parseInt(o1[1]) < Integer.parseInt(o2[1])){
+          return -1;
+        } else {
+          return 0;
+        }
+      }
+    });
+
+    for (int i = 0; i < answer.length; i++) {
+      answer[i] = answer2[i][0] + answer2[i][1] + answer2[i][2];
+    }
 
     return answer;
   }
@@ -48,7 +72,7 @@ public class SortByFileName {
     SortByFileName sortByFileName = new SortByFileName();
 
     String[] files = {"img12.png", "img10.png", "img02.png", "img1.png", "IMG01.GIF", "img2.JPG"};
-    System.out.println(sortByFileName.solution(files));
+    System.out.println(Arrays.toString(sortByFileName.solution(files)));
   }
 
 }
