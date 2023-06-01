@@ -60,41 +60,42 @@ a.compareTo(b)
 - [파일명 정렬](https://github.com/lucyoz/algorithm2023/blob/master/src/etc/kakao/SortByFileName.java)
 
 **2. 기타**
-- [행렬 테두리 회전하기](https://github.com/lucyoz/algorithm2023/blob/master/src/etc/RotateBorder.java): 2021 Dev-Matching: 웹 백엔드 개발자 
-- [숫자 변환하기](https://github.com/lucyoz/algorithm2023/blob/master/src/etc/AlterXtoY.java): DP 이용
-- [연속 부분 수열 합의 개수](https://github.com/lucyoz/algorithm2023/blob/master/src/etc/ConsecutiveNumberSubSequence.java): Set 이용
-- [연속된 부분 수열의 합](https://github.com/lucyoz/algorithm2023/blob/master/src/etc/SumOfConsecutiveNumberSubSequence.java): 투포인터 이용
-- [뒤에 있는 큰 수 찾기](https://github.com/lucyoz/algorithm2023/blob/master/src/etc/FindMaxBehindNum.java): stack 이용
-- [피로도](https://github.com/lucyoz/algorithm2023/blob/master/src/etc/Fatigue.java): DFS(재귀) 이용 -> boolean[] visited 
-- [피로도2](https://github.com/lucyoz/algorithm2023/blob/master/src/etc/Fatigue2.java): DFS(재귀) -> visited배열 없이
-- [튜플](https://github.com/lucyoz/algorithm2023/blob/master/src/etc/Tuple.java): String split, Set 이용
+- [행렬 테두리 회전하기](https://github.com/lucyoz/algorithm2023/blob/master/src/etc/RotateBorder.java): 2021 Dev-Matching: 웹 백엔드 개발자
 - [방문 길이](https://github.com/lucyoz/algorithm2023/blob/master/src/etc/LengthOfOnesVisit.java): 3차원 배열, dir
 - [n^2배열 자르기](https://github.com/lucyoz/algorithm2023/blob/master/src/etc/CuttingArray.java): (이중 for문으로 메모리 초과)
 - [n^2배열 자르기2](https://github.com/lucyoz/algorithm2023/blob/master/src/etc/CuttingArray2.java)
-- [JadenCase 문자열 만들기](https://github.com/lucyoz/algorithm2023/blob/master/src/etc/JadenCase.java): StringTokenizer
-- [스킬트리](https://github.com/lucyoz/algorithm2023/blob/master/src/etc/SkillTree.java)
-- [숫자 카드 나누기](https://github.com/lucyoz/algorithm2023/blob/master/src/etc/DistributeCard.java)
-- [마법의 엘리베이터](https://github.com/lucyoz/algorithm2023/blob/master/src/etc/MagicalElevator.java)
-- [요격 시스템](https://github.com/lucyoz/algorithm2023/blob/master/src/etc/InterceptSystem.java)
-- [호텔 대실](https://github.com/lucyoz/algorithm2023/blob/master/src/etc/Hotel.java): 누적합 이용
 - [2개 이하로 다른 비트](https://github.com/lucyoz/algorithm2023/blob/master/src/etc/OtherBit.java): 비트 연산 or ! 짝홀수로 나누어 규칙 풀이 !
 - [영어 끝말잇기](https://github.com/lucyoz/algorithm2023/blob/master/src/etc/WordRelay.java)
-- [귤 고르기](https://github.com/lucyoz/algorithm2023/blob/master/src/etc/SelectTangerine.java)
-- [택배상자](https://github.com/lucyoz/algorithm2023/blob/master/src/etc/ParcelBox.java)
 - [예상 대진표](https://github.com/lucyoz/algorithm2023/blob/master/src/etc/TournamentSchedule.java)
-- [124 나라의 숫자](https://github.com/lucyoz/algorithm2023/blob/master/src/etc/Country124.java): 3진법 변형, 나머지 처리 주의
-- [줄 서는 방법](https://github.com/lucyoz/algorithm2023/blob/master/src/etc/LineUp.java): Lv2, Lv3
 - [괄호 회전하기](https://github.com/lucyoz/algorithm2023/blob/master/src/etc/RotateBracket.java): Arrays copy, Stack 이용
-- [2 x n 타일링](https://github.com/lucyoz/algorithm2023/blob/master/src/etc/Tiling.java): 피보나치 변형
-- [멀리 뛰기](https://github.com/lucyoz/algorithm2023/blob/master/src/etc/StandingLongJump.java): 피보나치 변형
-- [행렬의 곱셈](https://github.com/lucyoz/algorithm2023/blob/master/src/etc/MultiplicationOfMatrices.java): 삼중 for문
 - [점프와 순간이동](https://github.com/lucyoz/algorithm2023/blob/master/src/etc/JumpNTeleport.java): 2진법과 유사
 - [삼각 달팽이](https://github.com/lucyoz/algorithm2023/blob/master/src/etc/TriangleSnails.java)
 - [쿼드압축 후 개수 세기](https://github.com/lucyoz/algorithm2023/blob/master/src/etc/QuadCompression.java)
 - [배달](https://github.com/lucyoz/algorithm2023/blob/master/src/etc/Delivery.java): 다익스트라 알고리즘
 
 **3. 연습문제**
-- [할인행사](https://github.com/lucyoz/algorithm2023/blob/master/src/etc/discountEvent.java)
+- [할인행사](https://github.com/lucyoz/algorithm2023/blob/master/src/etc/DiscountEvent.java)
+- [숫자 변환하기](https://github.com/lucyoz/algorithm2023/blob/master/src/etc/AlterXtoY.java): DP 이용
+- [연속 부분 수열 합의 개수](https://github.com/lucyoz/algorithm2023/blob/master/src/etc/ConsecutiveNumberSubSequence.java): Set 이용
+- [연속된 부분 수열의 합](https://github.com/lucyoz/algorithm2023/blob/master/src/etc/SumOfConsecutiveNumberSubSequence.java): 투포인터 이용
+- [뒤에 있는 큰 수 찾기](https://github.com/lucyoz/algorithm2023/blob/master/src/etc/FindMaxBehindNum.java): stack 이용
+- [피로도](https://github.com/lucyoz/algorithm2023/blob/master/src/etc/Fatigue.java): DFS(재귀) 이용 -> boolean[] visited
+- [피로도2](https://github.com/lucyoz/algorithm2023/blob/master/src/etc/Fatigue2.java): DFS(재귀) -> visited배열 없이
+- [튜플](https://github.com/lucyoz/algorithm2023/blob/master/src/etc/Tuple.java): String split, Set 이용
+- [JadenCase 문자열 만들기](https://github.com/lucyoz/algorithm2023/blob/master/src/etc/JadenCase.java): StringTokenizer
+- [스킬트리](https://github.com/lucyoz/algorithm2023/blob/master/src/etc/SkillTree.java)
+- [숫자 카드 나누기](https://github.com/lucyoz/algorithm2023/blob/master/src/etc/DistributeCard.java)
+- [마법의 엘리베이터](https://github.com/lucyoz/algorithm2023/blob/master/src/etc/MagicalElevator.java)
+- [요격 시스템](https://github.com/lucyoz/algorithm2023/blob/master/src/etc/InterceptSystem.java)
+- [호텔 대실](https://github.com/lucyoz/algorithm2023/blob/master/src/etc/Hotel.java): 누적합 이용
+- [귤 고르기](https://github.com/lucyoz/algorithm2023/blob/master/src/etc/SelectTangerine.java)
+- [택배상자](https://github.com/lucyoz/algorithm2023/blob/master/src/etc/ParcelBox.java)
+- [124 나라의 숫자](https://github.com/lucyoz/algorithm2023/blob/master/src/etc/Country124.java): 3진법 변형, 나머지 처리 주의
+- [줄 서는 방법](https://github.com/lucyoz/algorithm2023/blob/master/src/etc/LineUp.java): Lv2, Lv3
+- [2 x n 타일링](https://github.com/lucyoz/algorithm2023/blob/master/src/etc/Tiling.java): 피보나치 변형
+- [멀리 뛰기](https://github.com/lucyoz/algorithm2023/blob/master/src/etc/StandingLongJump.java): 피보나치 변형
+- [행렬의 곱셈](https://github.com/lucyoz/algorithm2023/blob/master/src/etc/MultiplicationOfMatrices.java): 삼중 for문
+
 ### **백준**
 - [어두운 굴다리](https://github.com/lucyoz/algorithm2023/blob/master/src/etc/baekjoon/BeakJoon17266.java): Parametric Search
 - [구간 합 구하기 4](https://github.com/lucyoz/algorithm2023/blob/master/src/etc/baekjoon/BaekJoon11659.java): 기본 구현
