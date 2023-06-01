@@ -1,7 +1,9 @@
 package etc;
 
 public class Delivery {
-  static final int INF = 50001;
+
+  //간선의 최대 weight는 N의 개수(50) x 간선의 최대 weight(10000) + 1
+  static final int INF = 500001;
 
   public int solution(int N, int[][] road, int K){
     int answer = 0;
