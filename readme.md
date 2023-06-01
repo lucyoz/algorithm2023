@@ -15,6 +15,7 @@
 
 ### **정렬**
 - [가장 큰 수](https://github.com/lucyoz/algorithm2023/blob/master/src/sort/LargestNumber.java): Comparator 오버라이드(내림차순)
+- [H-Index](https://github.com/lucyoz/algorithm2023/blob/master/src/sort/HIndex.java)
 ```java
 //문자열: 앞에서부터 비교, 'a-b' 순서로 해당 문자의 아스키코드 값을 뺀 결과
 a.compareTo(b)    
@@ -90,6 +91,7 @@ a.compareTo(b)
 - [점프와 순간이동](https://github.com/lucyoz/algorithm2023/blob/master/src/etc/JumpNTeleport.java): 2진법과 유사
 - [삼각 달팽이](https://github.com/lucyoz/algorithm2023/blob/master/src/etc/TriangleSnails.java)
 - [쿼드압축 후 개수 세기](https://github.com/lucyoz/algorithm2023/blob/master/src/etc/QuadCompression.java)
+- [배달](https://github.com/lucyoz/algorithm2023/blob/master/src/etc/Delivery.java): 다익스트라 알고리즘
 
 **3. 연습문제**
 - [할인행사](https://github.com/lucyoz/algorithm2023/blob/master/src/etc/discountEvent.java)
