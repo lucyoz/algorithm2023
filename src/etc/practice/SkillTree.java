@@ -1,4 +1,4 @@
-package etc;
+package etc.practice;
 
 public class SkillTree {
     public int solution(String skill, String[] skill_trees){

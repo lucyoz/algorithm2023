@@ -1,6 +1,6 @@
-package etc;
+package etc.practice;
 
-public class discountEvent {
+public class DiscountEvent {
 
   public static int solution(String[] want, int[] number, String[] discount){
     int answer = 0;

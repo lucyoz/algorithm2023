@@ -1,4 +1,4 @@
-package etc;
+package etc.practice;
 
 public class Hotel {
   private static final int MAX_TIME = 1450;   //24 * 60 + 10

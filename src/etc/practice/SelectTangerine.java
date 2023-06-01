@@ -1,4 +1,4 @@
-package etc;
+package etc.practice;
 
 import java.util.ArrayList;
 import java.util.Collections;

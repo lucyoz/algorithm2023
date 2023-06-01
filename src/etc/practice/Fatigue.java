@@ -1,4 +1,4 @@
-package etc;
+package etc.practice;
 
 public class Fatigue {
   int max = Integer.MIN_VALUE;

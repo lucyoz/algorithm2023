@@ -1,4 +1,4 @@
-package etc;
+package etc.practice;
 
 public class AlterXtoY {
   private static final int MAX = Integer.MAX_VALUE;
