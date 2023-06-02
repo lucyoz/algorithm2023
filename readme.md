@@ -58,6 +58,7 @@ a.compareTo(b)
 - [압축](https://github.com/lucyoz/algorithm2023/blob/master/src/etc/kakao/LZWCompression.java)
 - [n진수 게임](https://github.com/lucyoz/algorithm2023/blob/master/src/etc/kakao/BaseN.java)
 - [파일명 정렬](https://github.com/lucyoz/algorithm2023/blob/master/src/etc/kakao/SortByFileName.java)
+- [수식 최대화](https://github.com/lucyoz/algorithm2023/blob/master/src/etc/kakao/Expression.java)
 
 **2. 기타**
 - [행렬 테두리 회전하기](https://github.com/lucyoz/algorithm2023/blob/master/src/etc/RotateBorder.java): 2021 Dev-Matching: 웹 백엔드 개발자
@@ -95,6 +96,7 @@ a.compareTo(b)
 - [2 x n 타일링](https://github.com/lucyoz/algorithm2023/blob/master/src/etc/Tiling.java): 피보나치 변형
 - [멀리 뛰기](https://github.com/lucyoz/algorithm2023/blob/master/src/etc/StandingLongJump.java): 피보나치 변형
 - [행렬의 곱셈](https://github.com/lucyoz/algorithm2023/blob/master/src/etc/MultiplicationOfMatrices.java): 삼중 for문
+- [점 찍기](https://github.com/lucyoz/algorithm2023/blob/master/src/etc/practice/Dot.java)
 
 ### **백준**
 - [어두운 굴다리](https://github.com/lucyoz/algorithm2023/blob/master/src/etc/baekjoon/BeakJoon17266.java): Parametric Search
