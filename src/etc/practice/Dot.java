@@ -5,17 +5,11 @@ public class Dot {
   public long solution(int k, int d){
     long answer = 0;
 
-    for (int i = 0; i <= d/k; i++) {
-      int a = i * k;
-      int b = 0;
-      for (int j = 0; j <= d/k; j++) {
-        b = j * k;
-        if(Math.pow(a,2) + Math.pow(b,2) <= Math.pow(d,2)){
-          answer++;
-        } else {
-          break;
-        }
-      }
+    for (int i = 0; i <= d; i += k) {
+      long aa = (long) i * i;
+      long dd = (long) d * d;
+      int b = (int) Math.sqrt(dd - aa);
+      answer += (b / k) + 1;
     }
 
 
