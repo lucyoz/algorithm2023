@@ -38,6 +38,7 @@ a.compareTo(b)
 - [카펫](https://github.com/lucyoz/algorithm2023/blob/master/src/bruteForce/Carpet.java)
 - [소수 찾기](https://github.com/lucyoz/algorithm2023/blob/master/src/bruteForce/FindPrimeNumber.java)
 - [최소직사각형](https://github.com/lucyoz/algorithm2023/blob/master/src/bruteForce/LeastRectangle.java)
+- [전력망을 둘로 나누기](https://github.com/lucyoz/algorithm2023/blob/master/src/bruteForce/DividePowerGrid.java): bfs 이용하여 연결된 전력망 갯수 세기
 
 ### **해시**
 - [의상](https://github.com/lucyoz/algorithm2023/blob/master/src/hash/Clothes.java): Map이용
