@@ -39,17 +39,21 @@ public class MusicInfos {
       }
     }
 
-
+    if (answer.equals("")) {
+      answer = "(None)";
+    }
 
     return answer;
   }
 
   public String makeSemitone(String str){
-    str = str.replace("C#","P");
-    str = str.replace("D#","Q");
-    str = str.replace("F#","R");
-    str = str.replace("G#","S");
-    str = str.replace("A#","V");
+//    str = str.replace("C#","P");
+//    str = str.replace("D#","Q");
+//    str = str.replace("F#","R");
+//    str = str.replace("G#","S");
+//    str = str.replace("A#","V");
+
+    str = str.replace("C#","P").replace("D#","Q").replace("F#","R").replace("G#","S").replace("A#","V");
 
     return str;
   }
