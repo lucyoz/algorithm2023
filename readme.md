@@ -60,6 +60,7 @@ a.compareTo(b)
 - [n진수 게임](https://github.com/lucyoz/algorithm2023/blob/master/src/etc/kakao/BaseN.java)
 - [파일명 정렬](https://github.com/lucyoz/algorithm2023/blob/master/src/etc/kakao/SortByFileName.java)
 - [수식 최대화](https://github.com/lucyoz/algorithm2023/blob/master/src/etc/kakao/Expression.java)
+- [방금그곡](https://github.com/lucyoz/algorithm2023/blob/master/src/etc/kakao/MusicInfos.java)
 
 **2. 기타**
 - [행렬 테두리 회전하기](https://github.com/lucyoz/algorithm2023/blob/master/src/etc/RotateBorder.java): 2021 Dev-Matching: 웹 백엔드 개발자
