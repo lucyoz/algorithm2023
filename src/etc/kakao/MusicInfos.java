@@ -7,39 +7,35 @@ public class MusicInfos {
 
   //만약. 음악 재생 시간 < m의 길이 => 그곡 아님!
   //고려해야할 것! C#, D# 등 반음도 한 음으로 봐야한다.
+
+  //테스트30번주의: 재생시간이 노래보다 짧은 경우! 고려하기
   public String solution(String m, String[] musicinfos){
     String answer = "";
+    int maxPlayTime = -1;
 
     for (int i = 0; i < musicinfos.length; i++) {
       String[] music = musicinfos[i].split(",");
       int playTime = getPlayTime(music[0], music[1]);
       System.out.println(playTime);
 
-      if(playTime < m.length()){
-        continue;
-      }
-
-      music[3] = makeSemitone(music[3]);
+      String sheet = makeSemitone(music[3]);
       m = makeSemitone(m);
 
-      String musicMelody = "";
-      musicMelody += music[3].repeat(playTime/music[3].length());
-      System.out.println("/"+playTime/m.length());
-      System.out.println("playTime"+playTime);
-      System.out.println("m.len"+m.length());
-      System.out.println("%"+playTime%m.length());
-      if(playTime%m.length()!=0){
-        musicMelody += music[3].substring(0,playTime % music[3].length());
+      while(sheet.length()<playTime){
+        sheet += sheet;
       }
-      System.out.println(musicMelody);
+      sheet = sheet.substring(0, playTime);
 
-      if(musicMelody.contains(m)){
-        answer = music[2];
-        break;
+      if(sheet.contains(m)){
+        if(maxPlayTime < playTime){
+          maxPlayTime = playTime;
+          answer = music[2];
+        }
       }
+
     }
 
-    if (answer.equals("")) {
+    if (maxPlayTime == -1) {
       answer = "(None)";
     }
 
@@ -47,11 +43,6 @@ public class MusicInfos {
   }
 
   public String makeSemitone(String str){
-//    str = str.replace("C#","P");
-//    str = str.replace("D#","Q");
-//    str = str.replace("F#","R");
-//    str = str.replace("G#","S");
-//    str = str.replace("A#","V");
 
     str = str.replace("C#","P").replace("D#","Q").replace("F#","R").replace("G#","S").replace("A#","V");
 
@@ -61,7 +52,6 @@ public class MusicInfos {
   public int getPlayTime(String startTime, String endTime){
     String[] start = startTime.split(":");
     String[] end = endTime.split(":");
-
     int hour = Integer.parseInt(end[0]) - Integer.parseInt(start[0]);
     int minute = Integer.parseInt(end[1]) - Integer.parseInt(start[1]);
 
