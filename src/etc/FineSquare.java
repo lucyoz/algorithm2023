@@ -16,10 +16,11 @@ public class FineSquare {
     long answer = 0;
 
     long gcd = getGcd(w, h);
+    System.out.println(gcd);
     long a = w / gcd;
     long b = h / gcd;
 
-    answer = w * h - (w + h - gcd);
+    answer = (long)w * h - (w + h - gcd);
 
 
     return answer;
