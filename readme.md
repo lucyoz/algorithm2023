@@ -61,6 +61,7 @@ a.compareTo(b)
 - [파일명 정렬](https://github.com/lucyoz/algorithm2023/blob/master/src/etc/kakao/SortByFileName.java)
 - [수식 최대화](https://github.com/lucyoz/algorithm2023/blob/master/src/etc/kakao/Expression.java)
 - [방금그곡](https://github.com/lucyoz/algorithm2023/blob/master/src/etc/kakao/MusicInfos.java)
+- [메뉴 리뉴얼](https://github.com/lucyoz/algorithm2023/blob/master/src/etc/kakao/RenewalMenu.java)
 
 **2. 기타**
 - [행렬 테두리 회전하기](https://github.com/lucyoz/algorithm2023/blob/master/src/etc/RotateBorder.java): 2021 Dev-Matching: 웹 백엔드 개발자
@@ -75,6 +76,7 @@ a.compareTo(b)
 - [삼각 달팽이](https://github.com/lucyoz/algorithm2023/blob/master/src/etc/TriangleSnails.java)
 - [쿼드압축 후 개수 세기](https://github.com/lucyoz/algorithm2023/blob/master/src/etc/QuadCompression.java)
 - [배달](https://github.com/lucyoz/algorithm2023/blob/master/src/etc/Delivery.java): 다익스트라 알고리즘
+- [멀쩡한 사각형](https://github.com/lucyoz/algorithm2023/blob/master/src/etc/FineSquare.java): 공약수 생각
 
 **3. 연습문제**
 - [할인행사](https://github.com/lucyoz/algorithm2023/blob/master/src/etc/DiscountEvent.java)
