@@ -64,7 +64,7 @@ public class SocialDistancing {
 
       //거리 2 이하이면
       if(inDistance(ax, ay, nx, ny)){
-        if(matrix[nx][ny]=='P' || matrix[nx][ny]=='0'){
+        if(matrix[nx][ny]=='P' || matrix[nx][ny]=='O'){
           dfs(nx, ny, ax, ay);
 
           if(matrix[nx][ny]=='P'){
