@@ -1,22 +1,26 @@
 package etc.practice;
 
+import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.List;
 
 public class TableHashFunction {
 
   public int solution(int[][] data, int col, int row_begin, int row_end){
     int answer = 0;
+    List<Integer> modRes = new ArrayList<>();
 
     sort(data, col);
 
-    int[] S = new int[row_end-row_begin+1];
     for (int i = row_begin; i <= row_end; i++) {
-      for (int j = 0; j < data[i].length; j++) {
-        S[i-row_begin] += data[i-1][j] % i;
+      int S = 0;
+      for (int j = 0; j < data[0].length; j++) {
+        S += data[i-1][j] % i;
       }
+      modRes.add(S);
     }
 
-    answer = getXOR(S);
+    answer = getXOR(modRes);
     return answer;
   }
 
@@ -29,10 +33,10 @@ public class TableHashFunction {
     });
   }
 
-  public int getXOR(int[] S){
-    int result = S[0];
-    for (int i = 1; i < S.length; i++) {
-      result ^= S[i];
+  public int getXOR(List<Integer> modResult){
+    int result = modResult.get(0);
+    for (int i = 1; i < modResult.size(); i++) {
+      result ^= modResult.get(i);
     }
     return result;
   }
