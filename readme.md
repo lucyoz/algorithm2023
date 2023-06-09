@@ -64,6 +64,7 @@ a.compareTo(b)
 - [메뉴 리뉴얼](https://github.com/lucyoz/algorithm2023/blob/master/src/etc/kakao/RenewalMenu.java)
 - [거리두기 확인하기](https://github.com/lucyoz/algorithm2023/blob/master/src/etc/kakao/SocialDistancing.java): dfs 이용
 - [문자열 압축](https://github.com/lucyoz/algorithm2023/blob/master/src/etc/kakao/CompressionString.java): 문자열 순차적으로 비교
+- [괄호 변환](https://github.com/lucyoz/algorithm2023/blob/master/src/etc/kakao/MakeNewBracketString.java): 스택,재귀,문자열 자르기 등 사용
 
 **2. 기타**
 - [행렬 테두리 회전하기](https://github.com/lucyoz/algorithm2023/blob/master/src/etc/RotateBorder.java): 2021 Dev-Matching: 웹 백엔드 개발자
@@ -105,6 +106,7 @@ a.compareTo(b)
 - [점 찍기](https://github.com/lucyoz/algorithm2023/blob/master/src/etc/practice/Dot.java)
 - [혼자 놀기의 달인](https://github.com/lucyoz/algorithm2023/blob/master/src/etc/practice/PlayingAlone.java)
 - [가장 큰 정사각형 찾기](https://github.com/lucyoz/algorithm2023/blob/master/src/etc/practice/BiggestSquare.java): DP
+- [테이블 해시 함수](https://github.com/lucyoz/algorithm2023/blob/master/src/etc/practice/TableHashFunction.java): 정렬 오버라이드, 런타임에러 -> ArrayList로 해결
 
 ### **백준**
 - [어두운 굴다리](https://github.com/lucyoz/algorithm2023/blob/master/src/etc/baekjoon/BeakJoon17266.java): Parametric Search
