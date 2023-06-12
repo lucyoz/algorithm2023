@@ -108,6 +108,8 @@ a.compareTo(b)
 - [가장 큰 정사각형 찾기](https://github.com/lucyoz/algorithm2023/blob/master/src/etc/practice/BiggestSquare.java): DP
 - [테이블 해시 함수](https://github.com/lucyoz/algorithm2023/blob/master/src/etc/practice/TableHashFunction.java): 정렬 오버라이드, 런타임에러 -> ArrayList로 해결
 - [시소 짝궁](https://github.com/lucyoz/algorithm2023/blob/master/src/etc/practice/SeesawMate.java): 이중for문 시간초과 없애기 위해 이분탐색으로 최대범위 j 찾기
+- [미로 탈출](https://github.com/lucyoz/algorithm2023/blob/master/src/etc/practice/EscapeLabyrinth.java): BFS
+- [광물 캐기](https://github.com/lucyoz/algorithm2023/blob/master/src/etc/practice/MineralMining.java): 그리디
 
 ### **백준**
 - [어두운 굴다리](https://github.com/lucyoz/algorithm2023/blob/master/src/etc/baekjoon/BeakJoon17266.java): Parametric Search
