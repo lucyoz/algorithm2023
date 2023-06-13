@@ -2,63 +2,69 @@ package etc.kakao;
 
 import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.Collections;
+import java.util.HashMap;
 import java.util.List;
 
 public class SearchRanking {
-  //조건따라 순차적으로
-  //info 새 배열의 0,1,2,3,4번째에 각각 언어,직군,경력,소울푸드,점수 넣기
-  //query도 마찬가지
-  //for문 돌려 각 비교하기 -> 시간초과
+  //조건따라 순차적으로 하나씩 비교하게 되면 -> 시간초과
+  //HashMap 이용
+  //1.info가 포함될 수 있는 모든 경우의 수를 map에 key로 넣고 점수를 value로
+  //2.query를 key로 하는 value를 가지고와 이분탐색
 
-  String[][] applicant;
-  List<String> list;
+  static HashMap<String, List<Integer>> map;
 
   public int[] solution(String[] info, String[] query){
     int[] answer = new int[query.length];
 
-    applicant = new String[info.length][5];
+    map = new HashMap<>();
     for (int i = 0; i < info.length; i++) {
-      applicant[i] = info[i].split(" ");
-      System.out.println(Arrays.toString(applicant[i]));
+      String[] p = info[i].split(" ");
+      makeSentence(p, "", 0);
+    }
+
+    //오름차순 정렬
+    for(String key: map.keySet()){
+      Collections.sort(map.get(key));
     }
 
     for (int i = 0; i < query.length; i++) {
-      int count = search(query[i]);
-      answer[i] = count;
+      query[i] = query[i].replaceAll(" and ","");
+      String[] q = query[i].split(" ");     //q[0]은 언어,직군,경력,소울푸드 q[1]은 점수(String)
+      answer[i] = map.containsKey(q[0]) ? binarySearch(q[0], Integer.parseInt(q[1])):0;
     }
 
     return answer;
   }
 
-  private int search(String query){
-    int result = 0;
-    String[] strQ = query.split(" ");
-    list = new ArrayList<>();
-    for (int i = 0; i < strQ.length; i++) {
-      if(strQ[i].equals("and")){
-        continue;
-      }
-      list.add(strQ[i]);
-    }
+  //이분탐색
+  private int binarySearch(String key, int score){
+    List<Integer> list = map.get(key);
+    int start = 0, end = list.size()-1;
 
-    for (int i = 0; i < applicant.length; i++) {
-      int count = 0;
-      if(Integer.parseInt(list.get(4))>Integer.parseInt(applicant[i][4])){
-        continue;
-      }
-      for (int j = 0; j < list.size()-1; j++) {
-        if(list.get(j).charAt(0)==applicant[i][j].charAt(0) || list.get(j).equals("-")){
-          count++;
-        } else {
-          break;
-        }
-      }
-      //모든 조건 충족
-      if(count==4){
-        result++;
+    while(start<=end){
+      int mid = (start + end) / 2;
+      if(list.get(mid) < score){
+        start = mid + 1;
+      } else {
+        end = mid - 1;
       }
     }
-    return result;
+    return list.size() - start;
+  }
+
+  //info가 포함될 수 있는 문항 ex. --, java-, javabackend 등
+  private void makeSentence(String[] p, String str, int cnt){
+    if(cnt==4){
+      if(!map.containsKey(str)){
+        List<Integer> list = new ArrayList<>();
+        map.put(str, list);
+      }
+      map.get(str).add(Integer.parseInt(p[4]));
+      return;
+    }
+    makeSentence(p, str+"-",cnt+1);
+    makeSentence(p, str+p[cnt], cnt+1);
   }
 
   public static void main(String[] args) {
