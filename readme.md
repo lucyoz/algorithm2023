@@ -65,6 +65,7 @@ a.compareTo(b)
 - [거리두기 확인하기](https://github.com/lucyoz/algorithm2023/blob/master/src/etc/kakao/SocialDistancing.java): dfs 이용
 - [문자열 압축](https://github.com/lucyoz/algorithm2023/blob/master/src/etc/kakao/CompressionString.java): 문자열 순차적으로 비교
 - [괄호 변환](https://github.com/lucyoz/algorithm2023/blob/master/src/etc/kakao/MakeNewBracketString.java): 스택,재귀,문자열 자르기 등 사용
+- [순위 검색](https://github.com/lucyoz/algorithm2023/blob/master/src/etc/kakao/SearchRanking.java): HashMap 이용, 모든 경우의 수 만들고 value 넣기, 이분탐색으로 찾기
 
 **2. 기타**
 - [행렬 테두리 회전하기](https://github.com/lucyoz/algorithm2023/blob/master/src/etc/RotateBorder.java): 2021 Dev-Matching: 웹 백엔드 개발자
@@ -110,6 +111,7 @@ a.compareTo(b)
 - [시소 짝궁](https://github.com/lucyoz/algorithm2023/blob/master/src/etc/practice/SeesawMate.java): 이중for문 시간초과 없애기 위해 이분탐색으로 최대범위 j 찾기
 - [미로 탈출](https://github.com/lucyoz/algorithm2023/blob/master/src/etc/practice/EscapeLabyrinth.java): BFS
 - [광물 캐기](https://github.com/lucyoz/algorithm2023/blob/master/src/etc/practice/MineralMining.java): 그리디
+- [디펜스 게임](https://github.com/lucyoz/algorithm2023/blob/master/src/etc/practice/DefenceGame.java): PriorityQueue 이용
 
 ### **백준**
 - [어두운 굴다리](https://github.com/lucyoz/algorithm2023/blob/master/src/etc/baekjoon/BeakJoon17266.java): Parametric Search
