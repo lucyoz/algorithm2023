@@ -112,6 +112,8 @@ a.compareTo(b)
 - [미로 탈출](https://github.com/lucyoz/algorithm2023/blob/master/src/etc/practice/EscapeLabyrinth.java): BFS
 - [광물 캐기](https://github.com/lucyoz/algorithm2023/blob/master/src/etc/practice/MineralMining.java): 그리디
 - [디펜스 게임](https://github.com/lucyoz/algorithm2023/blob/master/src/etc/practice/DefenceGame.java): PriorityQueue 이용
+- [우박수열 정적분](https://github.com/lucyoz/algorithm2023/blob/master/src/etc/practice/CollatzConjecture.java)
+- [리코쳇 로봇](https://github.com/lucyoz/algorithm2023/blob/master/src/etc/practice/RicochetRobot.java)
 
 ### **백준**
 - [어두운 굴다리](https://github.com/lucyoz/algorithm2023/blob/master/src/etc/baekjoon/BeakJoon17266.java): Parametric Search
