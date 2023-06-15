@@ -66,6 +66,8 @@ a.compareTo(b)
 - [문자열 압축](https://github.com/lucyoz/algorithm2023/blob/master/src/etc/kakao/CompressionString.java): 문자열 순차적으로 비교
 - [괄호 변환](https://github.com/lucyoz/algorithm2023/blob/master/src/etc/kakao/MakeNewBracketString.java): 스택,재귀,문자열 자르기 등 사용
 - [순위 검색](https://github.com/lucyoz/algorithm2023/blob/master/src/etc/kakao/SearchRanking.java): HashMap 이용, 모든 경우의 수 만들고 value 넣기, 이분탐색으로 찾기
+- [프렌즈4블록](https://github.com/lucyoz/algorithm2023/blob/master/src/etc/kakao/FriendsBlock.java): 범위 체크, 삭제 시 Queue 이용
+- [이모티콘 할인행사](https://github.com/lucyoz/algorithm2023/blob/master/src/etc/kakao/EmoticonDiscount.java): 완전탐색 문제, DFS 이용
 
 **2. 기타**
 - [행렬 테두리 회전하기](https://github.com/lucyoz/algorithm2023/blob/master/src/etc/RotateBorder.java): 2021 Dev-Matching: 웹 백엔드 개발자
