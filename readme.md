@@ -117,6 +117,8 @@ a.compareTo(b)
 - [디펜스 게임](https://github.com/lucyoz/algorithm2023/blob/master/src/etc/practice/DefenceGame.java): PriorityQueue 이용
 - [우박수열 정적분](https://github.com/lucyoz/algorithm2023/blob/master/src/etc/practice/CollatzConjecture.java)
 - [리코쳇 로봇](https://github.com/lucyoz/algorithm2023/blob/master/src/etc/practice/RicochetRobot.java)
+- [혼자서 하는 틱택토](https://github.com/lucyoz/algorithm2023/blob/master/src/etc/practice/TicTecToc.java)
+- [과제 진행하기](https://github.com/lucyoz/algorithm2023/blob/master/src/etc/practice/DoHW.java): stack 이용
 
 ### **백준**
 - [어두운 굴다리](https://github.com/lucyoz/algorithm2023/blob/master/src/etc/baekjoon/BeakJoon17266.java): Parametric Search
