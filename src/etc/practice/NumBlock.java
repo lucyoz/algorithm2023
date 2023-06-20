@@ -23,16 +23,6 @@ public class NumBlock {
     return list.stream().mapToInt(Integer::intValue).toArray();
   }
 
-  //소수인가?
-  private boolean isPrime(long num){
-    for (int i = 2; i <= Math.sqrt(num); i++) {
-      if(num%i==0){
-        return false;
-      }
-    }
-    return true;
-  }
-
   //약수 중 본인을 제외한 최대값 찾기
   private int findSecondMax(long num){
     List<Integer> list = new ArrayList<>();
