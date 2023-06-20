@@ -48,6 +48,7 @@ a.compareTo(b)
 ### **탐욕법 Greedy**
 - [구명보트](https://github.com/lucyoz/algorithm2023/blob/master/src/greedy/LifeBoat.java): ArrayDeque 이용
 - [큰 수 만들기](https://github.com/lucyoz/algorithm2023/blob/master/src/greedy/MakeBigNum.java)
+- [조이스틱](https://github.com/lucyoz/algorithm2023/blob/master/src/greedy/JoyStick.java)
 
 ### **기타**
 **1. KAKAO**
@@ -119,6 +120,7 @@ a.compareTo(b)
 - [리코쳇 로봇](https://github.com/lucyoz/algorithm2023/blob/master/src/etc/practice/RicochetRobot.java)
 - [혼자서 하는 틱택토](https://github.com/lucyoz/algorithm2023/blob/master/src/etc/practice/TicTecToc.java)
 - [과제 진행하기](https://github.com/lucyoz/algorithm2023/blob/master/src/etc/practice/DoHW.java): stack 이용
+- [숫자 블록](https://github.com/lucyoz/algorithm2023/blob/master/src/etc/practice/NumBlock.java)
 
 ### **백준**
 - [어두운 굴다리](https://github.com/lucyoz/algorithm2023/blob/master/src/etc/baekjoon/BeakJoon17266.java): Parametric Search
