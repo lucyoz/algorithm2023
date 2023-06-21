@@ -121,6 +121,7 @@ a.compareTo(b)
 - [혼자서 하는 틱택토](https://github.com/lucyoz/algorithm2023/blob/master/src/etc/practice/TicTecToc.java)
 - [과제 진행하기](https://github.com/lucyoz/algorithm2023/blob/master/src/etc/practice/DoHW.java): stack 이용
 - [숫자 블록](https://github.com/lucyoz/algorithm2023/blob/master/src/etc/practice/NumBlock.java)
+- [N-Queen](https://github.com/lucyoz/algorithm2023/blob/master/src/etc/practice/NQueen.java): 백트래킹
 
 ### **백준**
 - [어두운 굴다리](https://github.com/lucyoz/algorithm2023/blob/master/src/etc/baekjoon/BeakJoon17266.java): Parametric Search
