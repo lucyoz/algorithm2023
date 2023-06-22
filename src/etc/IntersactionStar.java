@@ -1,4 +1,4 @@
-package etc.practice;
+package etc;
 
 import java.util.Arrays;
 import java.util.HashSet;
