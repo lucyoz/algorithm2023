@@ -87,6 +87,7 @@ a.compareTo(b)
 - [배달](https://github.com/lucyoz/algorithm2023/blob/master/src/etc/Delivery.java): 다익스트라 알고리즘
 - [멀쩡한 사각형](https://github.com/lucyoz/algorithm2023/blob/master/src/etc/FineSquare.java): 공약수 생각
 - [교점에 별 만들기](https://github.com/lucyoz/algorithm2023/blob/master/src/etc/IntersactionStar.java): HashSet 이용, !자료형! 매우 주의
+- [짝지어 제거하기](https://github.com/lucyoz/algorithm2023/blob/master/src/etc/EleminatePair.java): 2017 팁스타운: stack 이용
 
 **3. 연습문제**
 - [할인행사](https://github.com/lucyoz/algorithm2023/blob/master/src/etc/DiscountEvent.java)
